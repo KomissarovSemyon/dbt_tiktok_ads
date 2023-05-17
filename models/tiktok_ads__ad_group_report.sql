@@ -42,7 +42,7 @@ aggregated as (
         ad_groups.gender,
         ad_groups.audience_type,
         ad_groups.budget,
-        string(ad_groups.age_group) as age_group,
+        string(ad_groups.age) as age,
         string(ad_groups.languages) as languages,
         string(ad_groups.interest_category) as interest_category,
         sum(hourly.impressions) as impressions,
